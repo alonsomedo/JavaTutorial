@@ -19,5 +19,31 @@ public class Main {
 
         result = (result % 3);
         System.out.println("4 % 3 = " + result);
+
+        boolean isAlien = false;
+        if (!isAlien){
+            System.out.println("Is not an Alien");
+        }else{
+            System.out.println("Is an Alien");
+        }
+
+        int firstScore = 81;
+        int secondScore = 56;
+        int topScore = 90;
+        if (firstScore > topScore){
+            System.out.println("Your score is higher.");
+        }else {
+            System.out.println("Computer score is higher.");
+        }
+
+        if (topScore > firstScore && firstScore > secondScore){
+            System.out.println("Computer > 1st Player > 2nd Player");
+        }
+
+        if (firstScore > topScore || secondScore > topScore){
+            System.out.println("Computer lost.");
+        }
+
+
     }
 }
