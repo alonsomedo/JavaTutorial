@@ -44,6 +44,23 @@ public class Main {
             System.out.println("Computer lost.");
         }
 
+        int newValue = 50;
+        if (newValue == 50){
+            System.out.println("Values are equal.");
+        }
+
+        boolean isCar = true;
+        boolean wasCar = isCar ? true : false;
+        if (wasCar){
+            System.out.println("It's a car.");
+        }
+
+        int ageOfClient = 20;
+        boolean isEighteenOrOver = ageOfClient > 18 ? true:false;
+        if(isEighteenOrOver)
+            System.out.println("It's an adult.");
+
+
 
     }
 }
