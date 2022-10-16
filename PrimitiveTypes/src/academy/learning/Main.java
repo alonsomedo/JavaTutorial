@@ -26,7 +26,14 @@ public class Main {
         long myMaxlongValue = Long.MAX_VALUE;
         System.out.println("Long Min Value: " + myMinlongValue);
         System.out.println("Long Max Value: " + myMaxlongValue);
-        
+
+        int myTotal = (myMinIntValue / 2);
+
+        // What is in the parenthesis is treated like an Int
+        // We need to cast it to Byte
+        byte myNewByteValue = (byte)(myMinByteValue / 2);
+
+        short myNewShortValue = (short)(myMinShortValue / 2);
         
     }
 }
